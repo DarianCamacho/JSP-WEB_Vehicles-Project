@@ -1,0 +1,18 @@
+create database webProducts;
+use webProducts;
+SHOW TABLES;
+
+create table cars(
+	IdCar int,
+	Marca varchar(50),
+	Modelo varchar(50),
+  Year_of_Manufacture varchar(50), 
+  Estilo varchar (50),
+  Precio int
+);
+
+create table Users(
+	Name varchar(50),
+	Email varchar(50),
+	Telefono int
+);
